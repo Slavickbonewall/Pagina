@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Rubik:wght@300&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <title>American-technologies</title>
+</head>
+
+<body>
+    <style>
+        .Barra-superior{
+            animation: slide-in ease 3s;
+        }
+
+        .busqueda{
+            animation: slide-in ease 3s;
+        }
+
+        @keyframes slide-in {
+            from {
+                opacity: 0;
+                transform: translateX(50vw)
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+    <video id="background" muted autoplay loop src="background/bg.mp4"></video>
+    <div id="capa"></div>
+    <div class="Barra-superior">
+        <img class="Barra-superior__img" src="images/icon.png" alt="american-echnologies-icon">
+        <h1 class="Barra-superior__h1">American-technologies</h1>
+        <div class="Enlaces">
+            <a class="Enlaces__a" href="#" target="_blank">Contacto</a>
+            <a class="Enlaces__a-informacion" href="#" target="_blank">Mas informacion</a>
+        </div>
+    </div>
+    <div class="busqueda">
+        <input type="text" placeholder="Busca aqui...">
+    </div>
+</body>
+
+</html>
